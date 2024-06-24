@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import SwiftData
+
 
 @main
 struct mytasksApp: App {
@@ -14,7 +14,7 @@ struct mytasksApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
